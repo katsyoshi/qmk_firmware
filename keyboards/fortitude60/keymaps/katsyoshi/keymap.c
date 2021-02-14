@@ -108,7 +108,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TILD, KC_PGDN, KC_UP,   KC_PGUP, _______, _______,                   KC_CIRC, KC_AMPR,   KC_ASTR,    KC_LPRN, KC_RPRN, KC_DEL, \
   KC_DEL,  KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,                   _______, KC_UNDS,   KC_PLUS,    KC_LCBR, KC_RCBR, KC_PIPE, \
   _______, _______, _______, _______, _______, _______, _______, _______, _______, S(KC_NUHS),S(KC_NUBS), _______, _______, _______, \
-                    _______, _______, _______, _______, KC_LCTL, _______, _______, _______,    _______,   _______\
+                    _______, _______, _______, _______,KC_LANG1, _______, _______, _______,    _______,   _______\
 ),
 
 /* Raise
@@ -129,7 +129,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_GRV,  KC_PGDN, KC_UP,   KC_PGUP, _______, _______,                    KC_4,    KC_5,    KC_6,  KC_MINS, _______, _______, \
   KC_DEL,  KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,                    KC_1,    KC_2,    KC_3,  KC_PLUS, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______, _______,  KC_0,  KC_DOT,  KC_COMM, _______, _______, _______, \
-                    _______, _______, _______, _______, _______, _______,  _______, _______, _______, _______\
+                    _______, _______, _______, _______, _______,KC_LANG2,  _______, _______, _______, _______\
 ),
 
 /* Adjust (Lower + Raise)
